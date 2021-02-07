@@ -20,6 +20,7 @@
 		
 		$response->running = $json["status"];
 		$response->now = $json["now"];
+		$response->actual_line = $json["line"];
 		$response->success_list = $json["suc_list"];
 		$response->fails_list = $json["fail_list"];
 		$response->count_success = $json["suc_count"];
