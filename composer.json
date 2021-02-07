@@ -1,0 +1,6 @@
+{
+    "require": {
+        "ext-mongodb":"*",
+        "grpc/grpc": "^v1.27.0"
+    }
+}
